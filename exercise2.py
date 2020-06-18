@@ -10,23 +10,23 @@ print(B)
 
 # Set C zawiera elementy A lub B
 C = A.union(B)
-#print(C)
+print(C)
 print(len(C))
 
 # Set D zawiera elementy przecięcia A i B
 
 D = A.intersection(B)
-#print(D)
+print(D)
 print(len(D))
 
 # Set E zawiera elementy, które należą do A, ale nie do B
 
 E = A.difference(B)
-#print(E)
+print(E)
 print(len(E))
 
 # Set F zawiera elementy, które należą do B, ale nie do A
 
 F = B.difference(A)
-#print(F)
+print(F)
 print(len(F))
